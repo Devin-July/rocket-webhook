@@ -32,7 +32,7 @@
   "devDependencies": {
     "@boostercloud/framework-provider-azure-infrastructure": "3.1.2",
     "@cdktf/provider-azurerm": "13.18.0",
-    "@types/node": "^20.17.17",
+    "@types/node": "^22.10.2",
     "@typescript-eslint/eslint-plugin": "^8.11.0",
     "@typescript-eslint/parser": "^8.11.0",
     "cdktf": "^0.20.11",
