@@ -25,7 +25,8 @@ export class WebhookController {
         [rocketFunctionIDEnvVar]: functionID,
         req,
       }
-      const response: WebhookAPIResult = (await boosterRocketDispatcher(request)) as WebhookAPIResult
+      const dispatcher = (global as any).mockBoosterDispatcher || boosterRocketDispatcher
+      const response: WebhookAPIResult = (await dispatcher(request)) as WebhookAPIResult
       res.status(response.status)
       if (this.isSuccess(response)) {
         const body = response.body
