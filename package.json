@@ -1,6 +1,7 @@
 {
   "name": "@boostercloud/rocket-webhook",
   "version": "0.1.9",
+  "type": "module",
   "description": "Booster rocket to integrate webhooks",
   "keywords": [
     "Booster",
@@ -26,7 +27,8 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "5.2.1",
-    "lerna": "^8.1.8"
+    "globals": "^16.3.0",
+    "lerna": "^8.2.3"
   },
   "workspaces": [
     "packages/*"

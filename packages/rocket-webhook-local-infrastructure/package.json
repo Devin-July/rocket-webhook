@@ -28,21 +28,21 @@
   },
   "dependencies": {
     "@boostercloud/rocket-webhook-types": "^1.0.1",
-    "express": "4.21.1"
+    "express": "^5.1.0"
   },
   "devDependencies": {
     "@boostercloud/framework-provider-local-infrastructure": "3.1.2",
-    "@types/node": "^20.17.17",
-    "@typescript-eslint/eslint-plugin": "^8.11.0",
-    "@typescript-eslint/parser": "^8.11.0",
-    "eslint": "^9.13.0",
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "eslint": "^9.31.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "5.2.1",
-    "prettier": "3.3.3",
-    "ts-node": "^10.9.1",
-    "ts-patch": "3.2.1",
-    "typescript": "^5.6.3"
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "ts-patch": "^3.2.1",
+    "typescript": "^5.8.3"
   },
   "scripts": {
     "prepare": "ts-patch install -s",

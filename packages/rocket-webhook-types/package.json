@@ -27,7 +27,7 @@
     "@boostercloud/framework-types": ">=3.1.2"
   },
   "devDependencies": {
-    "typescript": "^5.6.3"
+    "typescript": "^5.8.3"
   },
   "scripts": {
     "prepare": "ts-patch install -s",
