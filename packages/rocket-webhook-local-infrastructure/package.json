@@ -42,7 +42,17 @@
     "prettier": "3.3.3",
     "ts-node": "^10.9.1",
     "ts-patch": "3.2.1",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "@types/mocha": "^10.0.1",
+    "sinon": "^17.0.1",
+    "@types/sinon": "^17.0.2",
+    "supertest": "^6.3.3",
+    "@types/supertest": "^6.0.2",
+    "rimraf": "^5.0.5",
+    "chai": "^4.3.10",
+    "@types/chai": "^4.3.11"
   },
   "scripts": {
     "prepare": "ts-patch install -s",
